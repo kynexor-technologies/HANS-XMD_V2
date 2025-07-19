@@ -9,10 +9,10 @@ const chalk = require('chalk')
 require('dotenv').config()
 
 //contact details - sensitive info moved to .env
-global.SESSION_ID = process.env.SESSION_ID || "" //fallback to default if not in .env
-global.ownernomer = process.env.OWNER_NUMBER || "255614195217"
+global.SESSION_ID = process.env.SESSION_ID || "HansTz&igZEzRKJ#YUy-78i7ucSgnsACbWjkU-LBOOrWlWdI9DnaHqLRCGA" //fallback to default if not in .env
+global.ownernomer = process.env.OWNER_NUMBER || "27751014718"
 
-global.ownername = process.env.OWNER_NAME || "HansTech"
+global.ownername = process.env.OWNER_NAME || "Cylee"
 
 global.ytname = "HANSTZ-TECH"
 
@@ -20,14 +20,14 @@ global.socialm = "GitHub: Mrhanstz"
 
 global.location = "AFRICA, TANZANIA, DODOMA"
 
-global.ownernumber = process.env.OWNER_NUMBER || '255614195217'  //Owner number
+global.ownernumber = process.env.OWNER_NUMBER || 27751014718'  //Owner number
 
-global.ownername = process.env.OWNER_NAME || 'HANSTZ' //owner name
+global.ownername = process.env.OWNER_NAME || 'Cylee' //owner name
 global.botname = 'HANS-XMD' //name of the bot
 
 //sticker details
 global.packname = 'Sticker By'
-global.author = 'HANS-XMD'
+global.author = 'Cylee ❤️🧸'
 
 //console view/theme
 global.themeemoji = '⚠️'
@@ -43,7 +43,7 @@ global.prefa = ['','!','.','#','/']
 //bot settings
 global.autolikestatus = true //For auto react Status Random
 global.autoRecording = false //auto recording
-global.autoTyping = false //auto typing
+global.autoTyping = true //auto typing
 global.autorecordtype = true //auto typing + recording
 global.autoread = false //auto read messages
 global.autobio = true //auto update bio
